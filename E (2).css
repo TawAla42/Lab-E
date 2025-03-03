@@ -1,0 +1,73 @@
+#lab_e_background {
+    background-image: url("./images/lab_e_background.jpg");
+}
+
+.gif-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns GIFs to the start of the container */
+    align-items: center;
+    width: 100%;
+}
+
+.gif-container .gif {
+    width: 18.75em;
+    height: 18.75em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 0.625em; /* Adds a small margin between GIFs */
+}
+
+.gif-container .gif:last-child {
+    margin-right: 0; /* Removes the margin for the last GIF */
+}
+
+.gif1 {
+    background-image: url("./images/lab_e_gif.gif");
+}
+
+.gif2 {
+    background-image: url("./images/lab_e_gif.gif");
+}
+
+.gif3 {
+    background-image: url("./images/lab_e_gif.gif");
+}
+
+.jpg-container {
+    display: flex;
+    justify-content: left; /* Centers the image */
+    width: 100%;
+    height: 28.125em; /* Adjust the height as needed */
+}
+
+.jpg-container .jpg {
+    width: 28.125em;
+    height: 28.125em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jpg {
+    background-image: url("./images/lab_e_jpg.jpg"); /* Path to your JPG file */
+}
+
+.png-container{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height:18.75em;
+}
+
+.png-container .png{
+    width: 18.75em;
+    height: 18.75em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.png{
+    background-image: url("./images/lab_e_png.png");
+}
